@@ -1,0 +1,31 @@
+/*
+Theme Name: grossmetall
+Author: Alexander Dolgan
+Author URI:
+Version: 1.0
+*/
+
+@font-face {
+	font-family: 'pfdintextcondpro';
+	src: url('/fonts/RobotoCondensed-Bold.ttf');
+}
+
+//settings-var
+@import "util/settings";
+@import "util/mixin";
+@import "util/function";
+//sprites
+@import "util/sprite";
+
+//base
+@import "base/base";
+
+//layout
+@import "layout/index";
+
+//modules
+@import "modules/index";
+
+//states
+@import "states/index";
+

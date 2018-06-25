@@ -1,0 +1,37 @@
+include partials/head
+body
+	#site-wrapper
+		section#site-header
+			nav.main-nav
+				//- mobile navigarion full screen 
+				include partials/site-header/nav-mob
+				#nav-open-btn.nav-open-btn
+				//- include partials/site-header/nav-screen
+			.social
+				a(href="//www.facebook.com/Loft-Pub-1008362829311705/" target="_blank").ic-fb
+				a(href="//www.instagram.com/loft.pub/" target="_blank").ic-in
+
+
+		section#site-main
+			.info
+				.info-logo
+					img( src="img/assets/brand/logo.svg" alt="Loft pub logo")
+				.info-text
+					//- h2 
+					a(href="/img/menu.pdf" target="_blanck") Меню
+				address.info-address
+					span
+						a(href="//yandex.ru/maps/-/CBuemUHkLB") г.Одинцово, ул. Говорова 9А
+					span 
+						a(href="tel:84957731182") +7 (495) 773-11-82
+						
+					span.time График работы:
+						span пн-чт с 12:00 до 00:00
+						span пт с 12:00 до 04:00
+						span сб с 14:00 до 04:00
+						span вс с 14:00 до 00:00
+
+
+			
+		section#site-footer
+			include partials/site-footer
